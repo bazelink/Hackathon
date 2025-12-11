@@ -1,3 +1,22 @@
+/* src/index.css or .module.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: only use plain HTML classes for @apply */
+.input {
+  padding-left: 1rem;  /* px-4 */
+  padding-right: 1rem; /* px-4 */
+  padding-top: 0.5rem; /* py-2 */
+  padding-bottom: 0.5rem; /* py-2 */
+  border: 1px solid #d1d5db; /* border-gray-300 */
+  border-radius: 0.5rem; /* rounded-lg */
+  outline: none;
+  box-shadow: 0 0 0 2px black inset; /* focus:ring-2 focus:ring-black */
+}
+
+
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
